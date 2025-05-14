@@ -5,8 +5,8 @@
   "scripts": {
     "ios": "ENVFILE=.env && npx react-native run-ios",
     "android": "ENVFILE=.env && npx react-native run-android",
-    "android-prod-apk": "cd android && ENVFILE=.env.production ./gradlew assembleRelease && cd ../",
-    "android-prod-aab": "cd android && ENVFILE=.env.production ./gradlew bundleRelease && cd ../",
+    "android-prod-apk": "cd android && ENVFILE=.env ./gradlew assembleRelease && cd ../",
+    "android-prod-aab": "cd android && ENVFILE=.env ./gradlew bundleRelease && cd ../",
     "m-android-ios": "npm run ios && npm run android",
     "l-clean": "npm cache clean --force && cd android && ./gradlew clean",
     "m-clean": "npm cache clean --force && watchman watch-del-all && cd android && ./gradlew clean",
