@@ -1,9 +1,10 @@
 /* eslint-disable react-native/no-inline-styles */
 import React from 'react';
-import {images} from '../../Constants';
 import {ImageBackground, Text, View} from 'react-native';
 import DeviceInfo from 'react-native-device-info';
 import LottieView from 'lottie-react-native';
+
+import {images} from '../../Constants';
 
 const SplashScreen = () => {
   return (

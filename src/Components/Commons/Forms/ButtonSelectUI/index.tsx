@@ -1,6 +1,7 @@
 /* eslint-disable react-native/no-inline-styles */
 import React from 'react';
 import {Text, TouchableOpacity} from 'react-native';
+
 import type {ButtonSelectUIProps} from '../../../../Types/components';
 
 const ButtonSelectUI: React.FC<ButtonSelectUIProps> = ({

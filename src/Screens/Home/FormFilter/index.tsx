@@ -1,5 +1,6 @@
 import React from 'react';
 import {Text, TouchableOpacity, View} from 'react-native';
+
 import InputUI from '../../../Components/Commons/Forms/InputUI';
 import ButtonSelectUI from '../../../Components/Commons/Forms/ButtonSelectUI';
 import type {FormFilterProps} from './interface';

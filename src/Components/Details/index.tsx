@@ -1,5 +1,6 @@
 import React from 'react';
 import {ScrollView, Text, View} from 'react-native';
+
 import type {CryptoProps} from '../../Types';
 import {cryptoData} from '../../Utils';
 import Percentage from '../Commons/Percentage';
@@ -51,7 +52,9 @@ const Details = ({cryptoInfo}: {cryptoInfo: CryptoProps}) => {
                 minimumFractionDigits: 2,
                 maximumFractionDigits: 2,
               })}`
-            : cryptoInfo[key] != null ? cryptoInfo[key].toLocaleString() : ''}
+            : cryptoInfo[key] != null
+            ? cryptoInfo[key].toLocaleString()
+            : ''}
         </Text>
       </View>
     ));

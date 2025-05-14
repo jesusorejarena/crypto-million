@@ -1,4 +1,5 @@
 import type {NativeStackNavigationProp} from '@react-navigation/native-stack';
+
 import type {RootStackParamList} from '../Routes/Screens/interface';
 
 export interface CryptoProps {

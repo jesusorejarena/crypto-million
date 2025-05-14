@@ -1,4 +1,5 @@
 import type {Dispatch, SetStateAction} from 'react';
+
 import type {TypePercent} from '../../../Types/hooks';
 
 export interface FormFilterProps {

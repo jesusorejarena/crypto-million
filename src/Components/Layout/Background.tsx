@@ -1,5 +1,6 @@
 import React, {type ReactNode} from 'react';
 import {View, Image} from 'react-native';
+
 import {images} from '../../Constants';
 
 const Background = ({children}: {children: ReactNode}) => {

@@ -1,5 +1,6 @@
 import React from 'react';
 import {Text, TextInput, View} from 'react-native';
+
 import type {InputUIProps} from '../../../../Types/components';
 
 const InputUI: React.FC<InputUIProps> = ({

@@ -1,5 +1,6 @@
 import {useEffect, useState} from 'react';
 import type {CryptoProps} from '../Types';
+
 import {getCryptosAPI} from '../Services/crypto';
 
 const useGetData = () => {

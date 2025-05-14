@@ -1,5 +1,6 @@
 /* eslint-disable curly */
 import {useState, useEffect} from 'react';
+
 import type {CryptoProps} from '../Types';
 import type {TypePercent, useFilterProps} from '../Types/hooks';
 

@@ -2,14 +2,15 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, {useEffect, useState} from 'react';
 import {Text, TouchableOpacity, View} from 'react-native';
+import {useNavigation, useRoute} from '@react-navigation/native';
+import FastImage from '@d11/react-native-fast-image';
+
 import Background from '../../Components/Layout/Background';
 import IconsUI from '../../Components/Commons/IconsUI';
-import {useNavigation, useRoute} from '@react-navigation/native';
 import useDetails from '../../Hooks/useDetails';
 import type {CryptoProps} from '../../Types';
 import Details from '../../Components/Details';
 import Percentage from '../../Components/Commons/Percentage';
-import FastImage from '@d11/react-native-fast-image';
 import {images} from '../../Constants';
 
 const CryptoDetails = () => {

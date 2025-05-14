@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
+
 import SplashScreen from '../Screens/Extras/SplashScreen';
 import Screens from './Screens';
 

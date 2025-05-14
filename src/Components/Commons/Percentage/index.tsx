@@ -1,5 +1,6 @@
 import React from 'react';
 import {Text, View} from 'react-native';
+
 import IconsUI from '../IconsUI';
 
 const Percentage = ({percentage}: {percentage: string}) => {

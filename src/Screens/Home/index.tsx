@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {FlatList, Text, TouchableOpacity, View} from 'react-native';
+
 import Background from '../../Components/Layout/Background';
 import Card from '../../Components/Card';
 import IconsUI from '../../Components/Commons/IconsUI';

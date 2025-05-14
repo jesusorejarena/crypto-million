@@ -1,11 +1,13 @@
 /* eslint-disable react-native/no-inline-styles */
+
 import React from 'react';
 import {Text, TouchableOpacity, View} from 'react-native';
-import type {CardProps} from './interface';
 import {useNavigation} from '@react-navigation/native';
+import FastImage from '@d11/react-native-fast-image';
+
+import type {CardProps} from './interface';
 import useDetails from '../../Hooks/useDetails';
 import Percentage from '../Commons/Percentage';
-import FastImage from '@d11/react-native-fast-image';
 import type {NavigationProp} from '../../Types';
 import {getPercentage} from '../../Utils';
 

@@ -1,5 +1,6 @@
 /* eslint-disable curly */
 import {useEffect, useState} from 'react';
+
 import {getCryptoByIdAPI, getImageCryptoAPI} from '../Services/crypto';
 import type {CryptoProps} from '../Types';
 
